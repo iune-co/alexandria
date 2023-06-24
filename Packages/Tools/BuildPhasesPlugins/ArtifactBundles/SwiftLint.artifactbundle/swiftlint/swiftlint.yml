@@ -1,0 +1,46 @@
+disabled_rules:
+  - nesting
+  - generic_type_name
+opt_in_rules:
+  - attributes
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - first_where
+  - multiline_parameters
+  - operator_usage_whitespace
+  - overridden_super_call
+  - pattern_matching_keywords
+  - private_outlet
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - single_test_class
+  - switch_case_on_newline
+  - trailing_closure
+  - unneeded_parentheses_in_closure_argument
+
+# configuration
+large_tuple:
+  warning: 4
+  error: 5
+file_length:
+  warning: 600
+  error: 900
+function_parameter_count:
+  warning: 8
+  error: 9
+identifier_name:
+  excluded:
+    - id
+    - to
+    - in
+    - at
+    - of
+    - up
+    - me
+    - en
+    - ar
+
+reporter: "xcode"
