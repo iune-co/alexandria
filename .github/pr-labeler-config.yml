@@ -1,0 +1,6 @@
+feature: ['feature/*','Feature/*']
+fix: ['fix/*', 'Fix/*']
+refactor: ['refactor/*', 'Refactor/*']
+ci: ['ci/*', 'CI/*']
+tools: ['tools/*', 'Tools/*']
+tests: ['tests/*', 'test/*', 'Test/*', 'Tests/*']
