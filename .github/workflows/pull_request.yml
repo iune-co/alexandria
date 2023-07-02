@@ -4,19 +4,16 @@ on:
     types: [opened, synchronize, reopened, ready_for_review]
 
 jobs:
-  pr-labeler:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: TimonVS/pr-labeler-action@v3
-        with:
-          configuration-path: .github/pr-labeler-config.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#  pr-labeler:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: TimonVS/pr-labeler-action@v3
+#        with:
+#          configuration-path: .github/pr-labeler-config.yml
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   auto-assign:
-    if: github.head_ref != '_master/crowdin-translations'
     runs-on: ubuntu-latest
     steps:
-      - uses: kentaro-m/auto-assign-action@v1.1.2
-        with:
-          configuration-path: .github/auto_assign_config.yml
+      - uses: kentaro-m/auto-assign-action@v1.2.5
