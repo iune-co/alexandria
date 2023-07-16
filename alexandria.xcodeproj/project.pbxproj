@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9028B61B2A647A1800EBE451 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Domain; path = ../../../../../Domain; sourceTree = "<group>"; };
 		907DDC432A475258006F3F72 /* alexandria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alexandria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907DDC462A475258006F3F72 /* alexandriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alexandriaApp.swift; sourceTree = "<group>"; };
 		907DDC482A475258006F3F72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9028B6192A6479CF00EBE451 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9028B61A2A6479CF00EBE451 /* Domain */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9028B61A2A6479CF00EBE451 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9028B61B2A647A1800EBE451 /* Domain */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		907DDC3A2A475258006F3F72 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +150,7 @@
 		907DDC702A47558E006F3F72 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				9028B6192A6479CF00EBE451 /* Features */,
 				907DDC712A47559A006F3F72 /* Tools */,
 			);
 			path = Packages;
