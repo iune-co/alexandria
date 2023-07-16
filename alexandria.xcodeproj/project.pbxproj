@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9028B61E2A647A9B00EBE451 /* NetworkService in Resources */ = {isa = PBXBuildFile; fileRef = 9028B61D2A647A9B00EBE451 /* NetworkService */; };
 		907DDC472A475258006F3F72 /* alexandriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DDC462A475258006F3F72 /* alexandriaApp.swift */; };
 		907DDC492A475258006F3F72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DDC482A475258006F3F72 /* ContentView.swift */; };
 		907DDC4B2A475258006F3F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907DDC4A2A475258006F3F72 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		9028B61B2A647A1800EBE451 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Domain; path = ../../../../../Domain; sourceTree = "<group>"; };
+		9028B61D2A647A9B00EBE451 /* NetworkService */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NetworkService; path = Packages/Services/NetworkService; sourceTree = SOURCE_ROOT; };
 		907DDC432A475258006F3F72 /* alexandria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alexandria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907DDC462A475258006F3F72 /* alexandriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alexandriaApp.swift; sourceTree = "<group>"; };
 		907DDC482A475258006F3F72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 				9028B61B2A647A1800EBE451 /* Domain */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		9028B61C2A647A7200EBE451 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9028B61D2A647A9B00EBE451 /* NetworkService */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		907DDC3A2A475258006F3F72 = {
@@ -150,6 +160,7 @@
 		907DDC702A47558E006F3F72 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				9028B61C2A647A7200EBE451 /* Services */,
 				9028B6192A6479CF00EBE451 /* Features */,
 				907DDC712A47559A006F3F72 /* Tools */,
 			);
@@ -269,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				907DDC4E2A475258006F3F72 /* Preview Assets.xcassets in Resources */,
+				9028B61E2A647A9B00EBE451 /* NetworkService in Resources */,
 				907DDC752A475613006F3F72 /* BuildPhasesPlugins in Resources */,
 				907DDC4B2A475258006F3F72 /* Assets.xcassets in Resources */,
 			);
